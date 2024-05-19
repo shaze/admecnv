@@ -1,0 +1,40 @@
+AnnotSV_ID:
+    POSITION: 1 #mandatory at this position
+
+SV_chrom:
+    POSITION: 2
+    RENAME: Chrom
+
+
+SV_start:
+    POSITION: 3
+    RENAME: Location
+
+Gene_name:
+    POSITION: 4
+    RENAME: Gene Symbol
+    HEADERTIPS: Some additionnal explanation about this column
+    COMMENTLIST:
+        - OMIM_phenotype
+
+
+ACMG_class:
+    POSITION: 5
+    RENAME: ACMG classification                #change the column name in the output 
+    HEADERTIPS: ACMG scoring implementation    #some details
+    COMMENTLIST:                               #All the fields I want to knot to the main field 
+        - SV_length
+        - AnnotSV_ranking_score
+        - AnnotSV_ranking_criteria
+SV_type:
+    POSITION: 6
+    RENAME: SV type
+
+Annotation_mode:
+    POSITION: 7
+
+INFO:
+    POSITION: 8
+
+    
+
