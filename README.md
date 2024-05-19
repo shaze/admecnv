@@ -1,9 +1,11 @@
-# Scripts for calling CNVs for H3A CNV paper
+# Supporting material for H3Africa Structural and Copy Number Variant paper
 
 
+## Summary data availability
 
-## Short read callers
+Summary results can be found the `data` directory.
 
-In all cases, build38 reference file is used
+## Scripts
 
-* gridss  
+The scripts used for the analysis can be found in the scripts directory
+
