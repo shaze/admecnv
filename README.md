@@ -2,8 +2,8 @@
 
 ## Summary data availability
 
-## Summary results can be found the data directory.
+Summary results can be found the data directory.
 
-Scripts
+## Scripts
 
 The scripts used for the analysis can be found in the scripts directory
